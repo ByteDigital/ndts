@@ -4,4 +4,6 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-Ndts::Application.config.secret_token = '7fb801bbbdd7e03536070b36ce5e2f16d176e5b1ffcf3953a273fb574745a76aba81a639cdac9080cf74c3d750a09d1a30f2408682a8b6af0afcad19b6b02f66'
+
+Ndts::Application.config.secret_token = '7b6dbbdadb58566ece2e2595ef0bd4b82627088ef28d2808b9c491c9822975cb85da7e2b534bb3ae8a42e5c60d8866b28585864786dd478ef7535bcff68dd822'
+

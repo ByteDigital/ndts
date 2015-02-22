@@ -1,7 +1,9 @@
 Ndts::Application.routes.draw do
 
-  resources :welcomes, only: [:index]
-  root to: "welcome#index"
+  resources :welcomes
+
+  root to: 'welcomes#index'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
