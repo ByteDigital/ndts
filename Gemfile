@@ -11,7 +11,7 @@ gem "twitter-bootstrap-rails"
 
 gem 'pg'
 
-ruby '2.0.0'
+ruby '2.1.2'
 
 # Gems used only for assets and not required
 # in production environments by default.
