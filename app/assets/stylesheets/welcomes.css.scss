@@ -34,12 +34,32 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #333;
 }
 body {
-  color: #fff;
+  #olor: #fff;
   text-align: center;
-  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+  #ext-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+
+.fill {
+background-image: image-url('cheating_sml.png');
+background-size: cover;
+height: 700px;
+}
+.navbar.navbar-default {
+border-bottom: none;
+}
+
+.navbar-inner{
+border-bottom: none;
+}
+
+.navbar{
+min-height: 40px;
+}
+.redbar{
+height:15px;
+background-color: #982025;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
