@@ -52583,3 +52583,123 @@ Served asset /application.js - 304 Not Modified (0ms)
 
 Started GET "/assets/cheating_sml.png" for 127.0.0.1 at 2015-05-03 19:48:41 +0100
 Served asset /cheating_sml.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-03 19:58:42 +0100
+Connecting to database specified by database.yml
+Processing by WelcomesController#index as HTML
+  [1m[36mWelcome Load (0.3ms)[0m  [1mSELECT "welcomes".* FROM "welcomes" [0m
+  Rendered welcomes/index.html.erb within layouts/application (1.3ms)
+Warning. Error encountered while saving cache /Users/nigel/development/ndts/tmp/cache/sass/ededb02a1502ca6558e9b76ff98d0c49f30862ec/welcomes.css.scssc: can't dump anonymous class #<Class:0x007f8dbd7a87d8>
+
+Compiled welcomes.css  (22ms)  (pid 51998)
+Compiled application.css  (1ms)  (pid 51998)
+Completed 200 OK in 90.5ms (Views: 72.4ms | ActiveRecord: 6.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-05-03 19:58:43 +0100
+Served asset /application.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2015-05-03 19:58:43 +0100
+Served asset /twitter-bootstrap-static/bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-05-03 19:58:43 +0100
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/welcomes.css?body=1" for 127.0.0.1 at 2015-05-03 19:58:43 +0100
+Served asset /welcomes.css - 200 OK (1ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2015-05-03 19:58:43 +0100
+Served asset /twitter-bootstrap-static/fontawesome.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-05-03 19:58:43 +0100
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-05-03 19:58:43 +0100
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-05-03 19:58:43 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2015-05-03 19:58:43 +0100
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2015-05-03 19:58:43 +0100
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2015-05-03 19:58:43 +0100
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2015-05-03 19:58:43 +0100
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2015-05-03 19:58:43 +0100
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2015-05-03 19:58:43 +0100
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2015-05-03 19:58:43 +0100
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2015-05-03 19:58:43 +0100
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2015-05-03 19:58:43 +0100
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2015-05-03 19:58:43 +0100
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2015-05-03 19:58:43 +0100
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2015-05-03 19:58:43 +0100
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2015-05-03 19:58:43 +0100
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-05-03 19:58:43 +0100
+Served asset /twitter/bootstrap.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-05-03 19:58:43 +0100
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-05-03 19:58:43 +0100
+Served asset /welcome.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/welcomes.js?body=1" for 127.0.0.1 at 2015-05-03 19:58:43 +0100
+Served asset /welcomes.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-05-03 19:58:43 +0100
+Served asset /application.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/cheating_sml.png" for 127.0.0.1 at 2015-05-03 19:58:43 +0100
+Served asset /cheating_sml.png - 304 Not Modified (1ms)
