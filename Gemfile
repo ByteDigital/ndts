@@ -10,7 +10,11 @@ gem 'pry-rails'
 
 gem 'pg'
 
-ruby '2.1.2'
+ruby '2.1.5'
+
+group :development, :test do
+  gem 'rspec-rails', '~> 3.0'
+end
 
 # Gems used only for assets and not required
 # in production environments by default.
