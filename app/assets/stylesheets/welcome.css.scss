@@ -41,37 +41,38 @@ body {
   #ext-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
 
+.carousel-wrapper{
+  width: 80%;
+  margin: 120px 0px 0px 60px;
+}
 .form-element{
- margin-top: 20px;
+  margin-top: 20px;
 }
 
 .form-box{
- margin:80px 150px 0px 60px;
- //border-style: solid;
- padding: 30px;
- color: #fff;
-// border-color: #98bf21;
+  margin:80px 150px 0px 60px;
+  //border-style: solid;
+  padding: 30px;
+  color: #fff;
+  // border-color: #98bf21;
 }
 
 .fill {
-background-image: image-url('cheating_sml.png');
-background-size: cover;
-height: 900px;
+  background-image: image-url('cheating_sml.png');
+  background-size: cover;
+  height: 900px;
+}
+.navbar {
+  margin-bottom: 0px;
+  border-radius: 0px;
 }
 .navbar.navbar-default {
-border-bottom: none;
+  border-bottom: none;
 }
 
-.navbar-inner{
-border-bottom: none;
-}
-
-.navbar{
-min-height: 40px;
-}
 .redbar{
-height:15px;
-background-color: #982025;
+  height:15px;
+  background-color: #982025;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -92,12 +93,6 @@ background-color: #982025;
   margin-right: auto;
   margin-left: auto;
 }
-
-/* Padding for spacing */
-.inner {
-  padding: 30px;
-}
-
 
 /*
  * Header
@@ -138,10 +133,10 @@ background-color: #982025;
 @media (min-width: 768px) {
   .masthead-brand {
     float: left;
-  }
-  .masthead-nav {
-    float: right;
-  }
+}
+.masthead-nav {
+  float: right;
+}
 }
 
 
@@ -177,21 +172,21 @@ background-color: #982025;
   .masthead {
     position: fixed;
     top: 0;
-  }
-  .mastfoot {
-    position: fixed;
-    bottom: 0;
-  }
-  /* Start the vertical centering */
-  .site-wrapper-inner {
-    vertical-align: middle;
-  }
-  /* Handle the widths */
-  .masthead,
-  .mastfoot,
-  .cover-container {
-    width: 100%; /* Must be percentage or pixels for horizontal alignment */
-  }
+}
+.mastfoot {
+  position: fixed;
+  bottom: 0;
+}
+/* Start the vertical centering */
+.site-wrapper-inner {
+  vertical-align: middle;
+}
+/* Handle the widths */
+.masthead,
+.mastfoot,
+.cover-container {
+  width: 100%; /* Must be percentage or pixels for horizontal alignment */
+}
 }
 
 @media (min-width: 992px) {
@@ -199,7 +194,7 @@ background-color: #982025;
   .mastfoot,
   .cover-container {
     width: 700px;
-  }
+}
 }
 .inner-cover{
   color: #a9a9a9;

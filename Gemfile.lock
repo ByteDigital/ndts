@@ -140,7 +140,7 @@ PLATFORMS
 
 DEPENDENCIES
   autoprefixer-rails
-  bootstrap-sass (~> 3.2.0)
+  bootstrap-sass
   coffee-rails (~> 3.2.1)
   jquery-rails
   pg
