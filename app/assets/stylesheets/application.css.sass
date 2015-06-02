@@ -13,16 +13,41 @@
  *
  *= require_self
  *= require_tree .
-
  */
+
 body, html
   margin: 0px
   padding: 0px
   width: 100%
 
-.container-fluid
-  width: 100%
-  background-image: image-url('cheating_sml.png')
-  background-size: cover
-  padding-left: 0px
-  padding-right: 0px
+@media only screen and (max-width: 520px)
+  .container-fluid
+    width: 100%
+    background-image: image-url('cheating_320.png')
+    background-size: cover
+    padding-left: 0px
+    padding-right: 0px
+  .fill
+    height: 800px
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px)
+  .container-fluid
+    width: 100%
+    background-image: image-url('cheating_768.png')
+    background-size: cover
+    padding-left: 0px
+    padding-right: 0px
+  .fill
+    height: 636px
+
+
+@media only screen and (min-width: 1025px)
+  .container-fluid
+    width: 100%
+    background-image: image-url('cheating_sml.png')
+    background-size: cover
+    padding-left: 0px
+    padding-right: 0px
+  .fill
+    height: 900px

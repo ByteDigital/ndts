@@ -42,7 +42,8 @@ body {
 }
 
 .carousel-wrapper{
-  margin: 100px 0px 0px 0px;
+  width: 80%;
+  margin: 100px auto  0px auto;
 }
 .form-element{
   margin-top: 20px;
@@ -56,9 +57,6 @@ body {
   // border-color: #98bf21;
 }
 
-.fill {
-  height: 900px;
-}
 .navbar {
   margin-bottom: 0px;
   border-radius: 0px;
